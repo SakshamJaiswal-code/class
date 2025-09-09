@@ -7,8 +7,13 @@
     <link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.LE96UejtxIeDhRUbfaPKIAHaGP?w=176&h=180&c=7&r=0&o=7&pid=1.7&rm=3" type="image/x-icon">
 </head>
 <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     header{
-        height: 200px;
+        height: 50px;
         width: 100%;
         background-color:rgb(126, 164, 236);
         display: flex;
@@ -16,10 +21,22 @@
         justify-content: space-between;
         padding: 0px 20px;
     }
-    header nav{
+    header nav ul{
         display: flex;
         align-items: center;
+        gap: 10px;
+    }
+    header nav ul li{
+        list-style: none;
+        text-transform: capitalize;
+    }
+
+    main{
+        display: flex;
+        width: 100%;
         gap: 20px;
+        padding: 30px 0px;
+
     }
 </style>
 <body>
@@ -33,11 +50,10 @@
                 <li>nutraceuticals</li>
                 <li>personal care</li>
                 <li>personal care</li>
-                <li>Health Care</li>
-                <li>Paridhan</li>
-                <li>Hawan Samagri</li>
+
                 
             </ul>
+
         </nav>
 
     </header>
